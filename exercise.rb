@@ -1,7 +1,7 @@
 require 'pry'
 
 def clean_full_name (first, last)
-  puts "#{first downcase.capitalize} #{last downcase.capitalize}."
+  puts "#{first.downcase.capitalize} #{last.downcase.capitalize}"
 end
 
 #create a method called clean_full_name that accepts two parameters: first_name, last_name
